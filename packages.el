@@ -11,13 +11,16 @@
 
 ;;; Code:
 
-(setq dired-open-packages '(
-                            dired-open
-                            dired+
-                            ))
+(setq dired-open-packages
+      '(
+        dired-open
+        dired+
+        ))
 
 (defun dired-open/init-dired-open ()
   (use-package dired-open
+    :init
+    (setq dired-listing-switches "-alhF")
     :config
     (setq dired-open-extensions
           '(
