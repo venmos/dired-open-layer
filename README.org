@@ -1,0 +1,8 @@
+* dired-layer for spacemacs https://github.com/syl20bnr/spacemacs
+
+** use packages:
+
+*** dired+
+*** dired-open
+
+
